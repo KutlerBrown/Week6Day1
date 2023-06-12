@@ -1,0 +1,72 @@
+body, div, html, h1, p, hr {
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #eeeeee;
+}
+#main{
+    padding: 30px 120px 0 120px;
+    
+}
+hr{
+    display: inline-block;
+    width: 50px;
+    align-self: left;
+    height: 2px;
+    background-color: black;
+}
+p{
+    font-size: 20px;
+    font-weight: bold;
+}
+.block{
+    display:flex;
+    flex-wrap: wrap;
+    border: 1px solid #999999;
+    border-radius: 5px;
+    margin: 10px;
+    padding: 10px;
+    background-color: white;
+}
+.block p{
+    flex: 1;
+}
+#clickMe {
+    margin: 0 130px;
+    display: inline-block;
+    padding:10px;
+    border: 1px solid black;
+    border-radius: 5px;
+    font-weight: bold;
+}
+#clickMe:hover {
+    cursor: pointer;
+    border-color: white;
+    background-color: #333333;
+    color: white;
+}
+
+.darkMode{
+    border-color: white;
+    background-color: #333333;
+    color: white;
+}
+
+.darkMode #main hr{
+    background-color: white;
+}
+
+.darkMode .block{
+    background-color: #444444;
+}
+
+.darkMode #clickMe {
+    border-color: white;
+
+}
+.darkMode #clickMe:hover {
+    border-color: black;
+    background-color: #eeeeee;
+    color: black;
+}
